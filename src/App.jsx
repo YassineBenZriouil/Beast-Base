@@ -4,7 +4,7 @@ import Home from "./components/Home";
 import Footer from "./static/Footer";
 import AnimalPage from "./components/ui/AnimalPage";
 import "./index.css";
-import About from "./components/about";
+import About from "./components/About";
 import Discover from "./components/Discover";
 import Search from "./components/search";
 
