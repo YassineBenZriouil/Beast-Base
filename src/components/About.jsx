@@ -1,5 +1,6 @@
 import React from "react";
 import Animations from "../utility/animations";
+import { Link } from "react-router-dom";
 
 export default function About() {
     return (
@@ -80,9 +81,12 @@ export default function About() {
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 mt-8">
-                            <button className="text-black font-bold capitalize px-4 py-2 bg-red-600  rounded-md  transition-all duration-300 shadow-md hover:scale-105  cursor-pointer">
-                                Browse Animals
-                            </button>
+                            {" "}
+                            <Link to="/discover">
+                                <button className="text-black font-bold capitalize px-4 py-2 bg-red-600  rounded-md  transition-all duration-300 shadow-md hover:scale-105  cursor-pointer">
+                                    Browse Animals
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </div>

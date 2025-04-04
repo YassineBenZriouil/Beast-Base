@@ -1,6 +1,7 @@
 import React from "react";
 import Carousel from "../static/Carousel";
 import Animations from "../utility/animations";
+import { Link } from "react-router-dom";
 
 const Home = () => {
     return (
@@ -43,10 +44,11 @@ const Home = () => {
                         </p>
 
                         <div className="text-center pt-4">
-                            {/* <Link to></Link> */}
-                            <button className="text-black font-bold capitalize px-4 py-2 bg-red-600  rounded-md  transition-all duration-300 shadow-md hover:scale-105  cursor-pointer">
-                                View Animal Collection
-                            </button>
+                            <Link to="/discover">
+                                <button className="text-black font-bold capitalize px-4 py-2 bg-red-600  rounded-md  transition-all duration-300 shadow-md hover:scale-105  cursor-pointer">
+                                    View Animal Collection
+                                </button>
+                            </Link>
                         </div>
                     </div>
 
